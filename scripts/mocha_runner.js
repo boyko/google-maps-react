@@ -1,6 +1,10 @@
 require('babel-core/register');
 require('babel-polyfill');
 
+var Enzyme = require('enzyme');
+var Adapter = require('enzyme-adapter-react-16');
+Enzyme.configure({adapter: new Adapter()});
+
 var jsdom = require('jsdom').jsdom;
 var chai = require('chai'),
     spies = require('chai-spies');

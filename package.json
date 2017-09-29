@@ -43,7 +43,8 @@
     "css-loader": "^0.23.1",
     "cssnano": "^3.5.2",
     "dotenv": "^2.0.0",
-    "enzyme": "^2.2.0",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
     "eslint": "^2.7.0",
     "eslint-plugin-babel": "^3.1.0",
     "eslint-plugin-react": "^5.1.1",
@@ -58,19 +59,20 @@
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",
     "prop-types": "^15.5.8",
-    "react": "^15.0.0",
+    "react": "^16.0.0",
     "react-addons-test-utils": "^15.0.0",
-    "react-dom": "^15.0.0",
+    "react-dom": "^16.0.0",
     "react-github-fork-ribbon": "^0.4.3",
     "react-router": "^2.4.0",
+    "react-test-renderer": "^16.0.0",
     "sinon": "^1.17.3",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.0"
   },
   "peerDependencies": {
-    "react": "~0.14.8 || ^15.0.0",
-    "react-dom": "~0.14.8 || ^15.0.0"
+    "react": "~0.14.8 || ^16.0.0",
+    "react-dom": "~0.14.8 || ^16.0.0"
   },
   "dependencies": {
     "history": "^3.0.0",
